@@ -125,7 +125,7 @@
             android:text="@string/free_throw"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/twoPointsABtn" />
+            app:layout_constraintTop_toBottomOf="@+id/threePointsABtn" />
 
         <Button
             android:id="@+id/twoPointsABtn"
@@ -133,11 +133,12 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="16dp"
             android:text="@string/two_points"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.487"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/threePointsABtn" />
+            app:layout_constraintTop_toBottomOf="@+id/scoreATxt" />
 
         <Button
             android:id="@+id/threePointsABtn"
@@ -145,11 +146,12 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="8dp"
             android:text="@string/three_points"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.487"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/scoreATxt" />
+            app:layout_constraintTop_toBottomOf="@+id/twoPointsABtn" />
 
         <TextView
             android:id="@+id/scoreATxt"
